@@ -1,0 +1,15 @@
+
+
+
+●	Det skall finnas två sidor på webbsidan, en “hem” sida och en “katalog” sida.
+
+●	“Hem”-sidan skall introducera användaren för vad webbplatsens syfte är.
+
+●	“katalog”-sidan skall presentera personers namn och telefonnummer i form av en tabell.
+
+●	Webbsidan skall implementeras i ett specifikt färg-tema, inga färger utöver färgerna i schemat får användas:
+ https://flatuicolors.com/palette/cn
+
+●	Webbsidan ska ha en navigerings-meny så att användaren kan förflytta sig mellan “hem” och “katalog”
+
+●	Webbsidans HTML struktur skall vara 100% godkänd av detta verktyg: https://validator.w3.org/#validate_by_upload
