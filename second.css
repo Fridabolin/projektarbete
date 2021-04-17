@@ -20,6 +20,7 @@ body {
     height: 100vh; 
 }
 
+/*header*/
 header {
     display: flex;
     background-image:url(shenggeng-lin-XoN3v3Ge7EE-unsplash.jpg);
@@ -36,20 +37,27 @@ header {
     text-align: -webkit-center;
 }
 
+/*contactinfo*/
 .grid-wrapper {
   display: grid;
-  grid-template-columns: repeat(4, auto);
-  padding:10px;
+  grid-template-columns: repeat(3, auto);
+  margin:1rem;
   grid-gap:1rem
-  
-
 }
 .employes {
   display: grid;
+  grid-auto-flow:column;
   background-color:#ffffff;
   border: 2px solid var(--border);
-  padding: 20px;
-  font-size: 30px;
   text-align: center;
-  grid-gap:5em;
+  align-items: center;
 }
+
+td {
+    border-bottom: 1px solid var(--border);
+}
+
+img {
+    width: 7rem;
+}
+ 
