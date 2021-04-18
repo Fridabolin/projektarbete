@@ -1,7 +1,9 @@
 
 :root {
     --background: #ff6b81;
-    --text: #ffffff;
+    --text:#ff6348;
+    --buttontext:#ffff;
+    --headertext:#ffff;
     --border:#ff4757;
     --button:#ff6348;
     --box-shadow: 0 0 10px #ff7f50;

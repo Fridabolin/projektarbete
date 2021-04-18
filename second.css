@@ -15,42 +15,54 @@ body {
     height: 100vh;
 }
 
-.container {
-    width: 100%;
-    height: 100vh; 
-}
-
 /*header*/
 header {
     display: flex;
     background-image:url(shenggeng-lin-XoN3v3Ge7EE-unsplash.jpg);
     background-position: center;
-    color:var(--text);
     height:20rem;
     width:100%;
     align-items:center;
     justify-content:center;
-    border:3px solid var(--border);
+    border-bottom:3px solid var(--border);
     box-shadow:var(--box-shadow);
+   
 }
 .headertext {
     text-align: -webkit-center;
+    color: var(--headertext);
 }
 
 /*contactinfo*/
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+ }
+
 .grid-wrapper {
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  margin:1rem;
-  grid-gap:1rem
+  grid-template-areas: 'left center right';
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap:2em;
+  width:fit-content;
 }
-.employes {
+
+
+.employes{
   display: grid;
   grid-auto-flow:column;
   background-color:#ffffff;
   border: 2px solid var(--border);
+  box-shadow:var(--box-shadow);
+  outline:none !important;
   text-align: center;
   align-items: center;
+  padding-right:1em;
+  color:#ff6348;
 }
 
 td {

@@ -1,0 +1,48 @@
+
+
+
+
+
+@media (width:1024px){
+
+    .container{
+        align-items: baseline;
+    }
+
+    .grid-wrapper{
+        margin-top:5rem;  
+    }
+
+    .employesinfo{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+@media (width:768px) {
+    .grid-wrapper {
+    grid-template-columns:none;
+    }
+    
+}
+
+@media (max-width:700px) {
+
+    .container {
+        align-items: unset;
+    }
+    .grid-wrapper {
+        grid-template-columns: none;
+        grid-template-areas: none;
+        margin-top:1rem;
+        width:inherit;
+    }
+
+}
+
+@media (min-width:540px) {
+    .grid-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+   
+}
