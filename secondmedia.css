@@ -3,7 +3,7 @@
 
 
 
-@media (width:1024px){
+@media (min-width:1024px){
 
     .container{
         align-items: baseline;
@@ -29,7 +29,7 @@
 @media (max-width:700px) {
 
     .container {
-        align-items: unset;
+        align-items:baseline;
     }
     .grid-wrapper {
         grid-template-columns: none;
@@ -41,8 +41,22 @@
 }
 
 @media (min-width:540px) {
+    .container {
+        align-items:baseline;
+    }
     .grid-wrapper{
         grid-template-columns: repeat(2, 1fr);
+        margin-top: 3rem;
     }
    
+@media (width:200px) {
+
+    header {
+        background-image:none;
+    }
+    .img {
+        width: 0px;
+    }
+
+}
 }

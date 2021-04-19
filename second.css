@@ -18,7 +18,7 @@ body {
 /*header*/
 header {
     display: flex;
-    background-image:url(shenggeng-lin-XoN3v3Ge7EE-unsplash.jpg);
+    background-image:url(shenggeng-lin-XoN3v3Ge7EE-unsplash-min.jpg);
     background-position: center;
     height:20rem;
     width:100%;
@@ -29,11 +29,32 @@ header {
    
 }
 .headertext {
+    background-color:#ff6b81;
+    opacity:50%;
+    width: 100%;
+    padding:0.5em;
     text-align: -webkit-center;
     color: var(--headertext);
 }
 
 /*contactinfo*/
+
+.informaiton{
+    display: flex;
+    width:fit-content;
+    height: fit-content;
+    border:1px solid var(--box-shadow);
+    color:var(--infotext);
+    background-color: white;
+    flex-wrap: wrap;
+    margin: 5rem;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    
+}
 
 .container {
     width: 100%;
@@ -43,6 +64,7 @@ header {
     justify-content: center;
  }
 
+ 
 .grid-wrapper {
   display: grid;
   grid-template-areas: 'left center right';

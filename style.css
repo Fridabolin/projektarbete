@@ -24,7 +24,7 @@ body {
 /*header*/
 header {
     display: flex;
-    background-image:url(shenggeng-lin-XoN3v3Ge7EE-unsplash.jpg);
+    background-image:url(shenggeng-lin-XoN3v3Ge7EE-unsplash-min.jpg);
     background-position: center;
     color:var(--headertext);
     height:20rem;
@@ -37,12 +37,16 @@ header {
 }
 
 .headertext {
+    background-color:#ff6b81;
+    opacity:50%;
+    width: 100%;
+    padding:0.5em;
     text-align: -webkit-center;
 }
 
 /*allt under header*/
 .content{
-   background-image:url(bruna-branco-7r1HxvVC7AY-unsplash.jpg);
+   background-image:url(bruna-branco-7r1HxvVC7AY-unsplash-min.jpg);
    background-position: left;
    display: flex;
    flex-direction: column;
@@ -126,8 +130,6 @@ input {
     margin-top:0.5em;
     margin-bottom:0.5em;
 }
-
-
 
 .info {
     display: flex;
