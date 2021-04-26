@@ -1,0 +1,74 @@
+
+
+
+●	Det skall finnas två sidor på webbsidan, en “hem” sida och en “katalog” sida.
+●	“Hem”-sidan skall introducera användaren för vad webbplatsens syfte är.
+
+Scenariot är att det är ett företags hemsida ”Fruity drinks”.
+
+Fruity drinks består av två sidor.
+
+Första sidan (index.html): 
+Header
+Kolumn ett där besökaren/användaren kan ta sig vidare till sida nr 2 för kontaktinformation
+Kolumn två där den anställde kan logga in på företagets hemsida (denna kolumn är endast där för snyggare layout och ”welcome to work!” tar dig endast vidare till google). 
+
+Andra sidan (secondp.html):
+Header
+Kolumn med information till besökare samt ikoner att klicka sig vidare ner på sidan.
+4 kort som ger information om arbetstitlar till de anställda.
+10 ”visitkort” med bild och kontakuppgifter
+Kolumn med en tabell där alla kontaktuppgifter presenteras igen utan bild och i alfabetisk ordning (dock efter förnamnet och ej efternamn)
+Och slutligen en footer med 2 ikoner i där du antingen kan ta dig tillbaka till första sidan eller ta dig upp till toppen igen. 
+
+
+
+●	“katalog”-sidan skall presentera personers namn och telefonnummer i form av en tabell.
+
+På sida nr två presenteras de anställdas kontaktuppgifter i form av tabell på två olika sätt. 
+
+-	I en grid med 10 kort där de anställdes kontaktuppgifter presenteras med bild och tabell. 
+-	Stor klassisk tabell i alfabetiskt ordning 
+
+Skapandet av Index.html 
+
+Gjord med flex då det var så lite kolumner. 
+
+Jag ville ha en "lekfullare" hemsida och valde färger som jag tycker passade företagets namn och "image" 
+-Fruity Drinks- 
+
+Första sidans bakgrunds bilder är komprimerade med https://imagecompressor.com/ då jag vet att stora bilder slöar
+ner hemsidan och användandet för användaren, jag la även en bakgrundsfärg pga av detta - om bilderna tar 
+lång tid på sig att ladda upp. Sidan tar fortfarande lite tid att ladda upp och jag inser att det inte var det bästa
+valet men jag tycker det ger en härlig första intryck för besökaren. 
+
+I övrigt har jag bara försökt göra första sidan tydlig i budksap/färg/form. 
+
+
+Skapandet av secondp.html
+
+Gjord med flex för att på lättast sätt kunna placera ut kolumner och texter där jag vill ha dom samt
+med grid på visitkorten för att på lättast sätt få snygg layout och så responsiv som möjligt.
+
+
+Denna sidan är en ren informationssida. Besökaren möts av tydlig information och har även möjlighet att trycka på
+ikoner för att ta sig vidare ner på sidan istället för att skrolla.
+
+nedanför kommer information i form av visitkort - skapat i grid då jag tyckte det var det bästa sättet för
+att sortera upp mina visitkort på ett smidigt sätt samt lätt att få dom responsiva. 
+
+under visitkorten kommer en sorterad lista gjord med tabell (den här la jag egentligen bara till för att jag inte visste
+om mina visitkort skulle räknas som godkända för sidans syfte) 
+
+min footer kändes som ett bra avslut på sidan samt då möjlighet att ta sig tillbaka till första sidan (vilket var en del
+av uppgiften) samt möjlighet för användaren att ta sig längst upp på sidan utan att skrolla verkade som ett schysst
+alternativ för besökaren. 
+
+På denna sida har jag valt att inte ha någon bakgrundsbild på bodyn dels av anledningen att den slöar ner sidan för
+användaren. 
+
+bilderna i visitkorten är även dom komprimerade med https://imagecompressor.com/. 
+
+
+
+

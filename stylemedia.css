@@ -1,0 +1,42 @@
+
+@media (min-width:760px) {
+
+    .container{
+        align-items: unset;
+        margin-top:15%;
+    }
+    
+}
+
+
+@media (max-width:550px) {
+
+    .content{
+        padding:0;
+    }
+    
+}
+
+@media (max-width:460px) {
+
+.header {
+    height:5rem;
+}
+.content {
+    margin-top:10rem;
+}
+
+.firstbox{
+    width: fit-content;
+    height: fit-content;
+}
+
+.secondbox {
+    width: fit-content;
+    height: fit-content;
+}
+.content {
+    padding-bottom:5rem;
+}
+    
+}
