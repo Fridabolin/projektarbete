@@ -1,20 +1,15 @@
 
-@media (min-width:760px) {
 
-    .container{
-        align-items: unset;
-        margin-top:15%;
-    }
-    
-}
+
+
 
 
 @media (max-width:550px) {
 
     .content{
         padding:0;
-    }
-    
+        background-color: unset;
+    }    
 }
 
 @media (max-width:460px) {
@@ -23,7 +18,7 @@
     height:5rem;
 }
 .content {
-    margin-top:10rem;
+    width: 90%;
 }
 
 .firstbox{
@@ -38,5 +33,33 @@
 .content {
     padding-bottom:5rem;
 }
-    
 }
+
+
+@media (max-width:380px) {
+
+    .body {
+        background-position:center;
+    }
+
+    .headertext {
+        text-align: center;
+    }
+
+    .content{
+        padding-top:2rem;
+        padding-bottom:2rem;
+
+    }
+    
+.firstbox {
+    flex-direction:column;
+}
+
+.secondbox {
+    flex-direction: column;
+}
+
+
+}
+    

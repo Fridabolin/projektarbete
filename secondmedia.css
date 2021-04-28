@@ -3,44 +3,27 @@
 
 
 
-@media (min-width:1024px){
+@media (min-width:1156px){
 
-    .container{
-        align-items: baseline;
-    }
-
-    .grid-wrapper{
-        margin-top:5rem;  
-    }
-
-    .employesinfo{
-        padding-left:2em;
-        padding-right:2em;
-    }
+.left{
+    padding:1rem;
+}
 }
 
-@media (width:768px) {
-    .grid-wrapper {
-    grid-template-columns:none;
+@media (max-width:1008px){
+
+    .wrapper-information{display: none;}
+    }
+
+
+ @media (max-width:880px){
+  
+    .container {
+        grid-template-columns: none;
     }
     
-}
-
-@media (max-width:700px) {
-
-    .container {
-        align-items:baseline;
-    }
-    .grid-wrapper {
-        grid-template-columns: none;
-        grid-template-areas: none;
-        margin-top:1rem;
-        width:inherit;
-    }
-    nav{
-        flex-direction:column;
-     }
-}
+ }
+    
 
 @media (min-width:540px) {
     .container {
@@ -50,16 +33,24 @@
         grid-template-columns: repeat(2, 1fr);
         margin-top: 3rem;
     }
-
     
  }
     
-@media (width:200px) {
+@media (max-width:400px) {
+   
+    .text {
+        margin: 0.5em;
+        text-align: center;
+    }
+    .card-wrapper{display: none;}
 
-    header {
-        background-image:none;
+    .right h3{display:none;}
+    
+    .wrapper-information{
+        display: list-item;
     }
-    .img {
-        width: 0px;
-    }
+ .text {
+     padding:0;
+ }
 }
+

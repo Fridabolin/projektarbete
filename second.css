@@ -12,25 +12,26 @@
 
 
 body {  
+    display:grid;
     background-color: var(--background);
     width: 100%;
-    height: 100vh;
 }
 
 
 /*header*/
 header {
-    display: flex;
+    display:flex;
     background-image:url(shenggeng-lin-XoN3v3Ge7EE-unsplash-min.jpg);
     background-position: center;
-    height:20rem;
     width:100%;
+    height: 20rem;
     align-items:center;
     justify-content:center;
     border-bottom:3px solid var(--border);
     box-shadow:var(--box-shadow);
 }
 
+    
 .headertext {
     background-color:#ff6b816b;
     width: 100%;
@@ -39,66 +40,97 @@ header {
     color: var(--headertext);
 }
 
-/*customer information*/
+
+/*left*/
+
+.container {
+    display:grid;
+    grid-template-columns:30% auto; 
+    background-color:var(--background);
+}
+
+.left {  
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--border);
+}
+
+.text {
+    padding:3rem;
+    color: var(--headertext);
+}
+
+.text h3 {
+    text-align: center;
+}
+
+
+/*table*/
 
 .wrapper-information{
     display:flex;
     width: 100%;
     align-items: center;
     justify-content: center;
-    align-content: center;  
+    align-content: center; 
+    color: var(--headertext); 
 }
-.informaiton{
+
+.information{
     display: flex;
-    width:90%;
-    height: fit-content;
-    border:2px solid var(--border);
-    color:var(--infotext);
-    background-color: white;
-    flex-wrap: wrap;
-    margin-top: 5rem;
-    padding: 0.5em;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    align-content: center;    
+    align-content: center;
 }
 
-.wrapper-information a {
-    color:var(--infotext);
+.wrapper-information h2 {
+    text-align: center;
 }
 
-nav {
-    display:flex;
-    
-    flex-wrap: wrap;
-    width: 100%;
-    height: fit-content;
-    margin:0.5em;
-    justify-content:center;
-}
+.workers {
+    border-collapse: collapse;
+    width:100%;
+  }
+  
+  .workers td, .workers th {
+   
+    border: 1px solid var(--border);
+    padding:0.5em;
 
-.first , .second , .third , .fourth , .fifth {
-    display:flex;
-    padding:1em;
-}
+  }
+  
+  .workers th {
+    padding-top:1em;
+    padding-bottom: 1em;
+    text-align: left;
+    background-color:var(--background);
+    color: white;
+  }
 
-/*Contact information*/
-.container {
-    width: 100%;
-    display:flex; 
-    align-items: center;
-    justify-content: center;
- }
+  
 
+/*right*/
  
-.grid-wrapper {
-  display: grid;
-  grid-template-areas: 'left center right';
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap:2em;
-  width:fit-content;
+.right {
+    width: 100%;
+    height:100%;
+    padding-left:2px;
+    padding-right:2px;
+    color:var(--headertext);
+    text-align: center;
 }
 
+.right h3 {
+    padding-bottom:0.5em;
+    padding-top:0.5em;
+}
+
+.card-wrapper {
+  display: grid;
+  width: 100%;
+  grid-template-areas: 'left center right';
+  grid-gap:0.2rem;
+}
 
 .employes{
   display: grid;
@@ -109,37 +141,14 @@ nav {
   outline:none !important;
   text-align: center;
   align-items: center;
-  padding-right:1em;
   color:var(--infotext);
 }
 
-td {
-    border-bottom: 1px solid var(--border);
-}
 
 img {
-    width: 7rem;
+width:7rem;
+height:100%;
 }
-
-/*contact alpabetic*/
-
-.workers {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  .workers td, .workers th {
-    border: 1px solid var(--border);
-    padding: 8px;
-  }
-  
-  .workers th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color:var(--background);
-    color: white;
-  }
 
   /*footer*/
 
@@ -151,8 +160,8 @@ footer{
     justify-content:center;
     border-top:3px solid var(--border);
     box-shadow:var(--box-shadow);
-    margin-top: 5rem;
     color: var(--headertext);
+    padding:5px;
 }
 
 footer i {
@@ -160,6 +169,10 @@ footer i {
     color: var(--headertext);
 }
 
-footer {
-    padding:5px;
+footer a:hover{
+    
+    
+    background-color: var(--button);
+    box-shadow:var(--box-shadow);
 }
+
